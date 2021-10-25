@@ -1,0 +1,336 @@
+{
+      "danseur": {
+            "single_attr": "a danseur",
+            "plural_attr": "danseurs",
+            "gender": "male"
+      },
+      "matriarch": {
+            "single_attr": "a matriarch",
+            "plural_attr": "matriarchs",
+            "gender": "female"
+      },
+      "councilwoman": {
+            "single_attr": "a councilwoman",
+            "plural_attr": "councilwomen",
+            "gender": "female"
+      },
+      "heiress": {
+            "single_attr": "a heiress",
+            "plural_attr": "heiresses",
+            "gender": "female"
+      },
+      "grandpa": {
+            "single_attr": "a grandpa",
+            "plural_attr": "grandpas",
+            "gender": "male"
+      },
+      "godfather": {
+            "single_attr": "a godfather",
+            "plural_attr": "godfathers",
+            "gender": "male"
+      },
+      "mama": {
+            "single_attr": "a mama",
+            "plural_attr": "mamas",
+            "gender": "female"
+      },
+      "goddess": {
+            "single_attr": "a goddess",
+            "plural_attr": "goddesses",
+            "gender": "female"
+      },
+      "schoolgirl": {
+            "single_attr": "a schoolgirl",
+            "plural_attr": "schoolgirls",
+            "gender": "female"
+      },
+      "schoolboy": {
+            "single_attr": "a schoolboy",
+            "plural_attr": "schoolboys",
+            "gender": "male"
+      },
+      "hostess": {
+            "single_attr": "a hostess",
+            "plural_attr": "hostesses",
+            "gender": "female"
+      },
+      "housewife": {
+            "single_attr": "a housewife",
+            "plural_attr": "housewives",
+            "gender": "female"
+      },
+      "nun": {
+            "single_attr": "a nun",
+            "plural_attr": "nuns",
+            "gender": "female"
+      },
+      "grandma": {
+            "single_attr": "a grandma",
+            "plural_attr": "grandmas",
+            "gender": "female"
+      },
+      "mistress": {
+            "single_attr": "a mistress",
+            "plural_attr": "mistresses",
+            "gender": "female"
+      },
+      "heroine": {
+            "single_attr": "a heroine",
+            "plural_attr": "heroines",
+            "gender": "female"
+      },
+      "mommy": {
+            "single_attr": "a mommy",
+            "plural_attr": "mommies",
+            "gender": "female"
+      },
+      "daddy": {
+            "single_attr": "a daddy",
+            "plural_attr": "daddies",
+            "gender": "male"
+      },
+      "stepdaughter": {
+            "single_attr": "a stepdaughter",
+            "plural_attr": "stepdaughters",
+            "gender": "female"
+      },
+      "stepson": {
+            "single_attr": "a stepson",
+            "plural_attr": "stepsons",
+            "gender": "male"
+      },
+      "stepmother": {
+            "single_attr": "a stepmother",
+            "plural_attr": "stepmothers",
+            "gender": "female"
+      },
+      "stepfather": {
+            "single_attr": "a stepfather",
+            "plural_attr": "stepfathers",
+            "gender": "male"
+      },
+      "princess": {
+            "single_attr": "a princess",
+            "plural_attr": "princesses",
+            "gender": "female"
+      },
+      "saleswoman": {
+            "single_attr": "a saleswoman",
+            "plural_attr": "saleswomen",
+            "gender": "female"
+      },
+      "lesbian": {
+            "single_attr": "a lesbian",
+            "plural_attr": "lesbians",
+            "gender": "female"
+      },
+      "bridegroom": {
+            "single_attr": "a bridegroom",
+            "plural_attr": "bridegrooms",
+            "gender": "male"
+      },
+      "bride": {
+            "single_attr": "a bride",
+            "plural_attr": "brides",
+            "gender": "female"
+      },
+      "niece": {
+            "single_attr": "a niece",
+            "plural_attr": "nieces",
+            "gender": "female"
+      },
+      "nephew": {
+            "single_attr": "a nephew",
+            "plural_attr": "nephews",
+            "gender": "male"
+      },
+      "widower": {
+            "single_attr": "a widower",
+            "plural_attr": "widowers",
+            "gender": "male"
+      },
+      "granddaughter": {
+            "single_attr": "a granddaughter",
+            "plural_attr": "granddaughters",
+            "gender": "female"
+      },
+      "grandson": {
+            "single_attr": "a grandson",
+            "plural_attr": "grandsons",
+            "gender": "male"
+      },
+      "congresswoman": {
+            "single_attr": "a congresswoman",
+            "plural_attr": "congresswomen",
+            "gender": "female"
+      },
+      "aunt": {
+            "single_attr": "an aunt",
+            "plural_attr": "aunts",
+            "gender": "female"
+      },
+      "uncle": {
+            "single_attr": "an uncle",
+            "plural_attr": "uncles",
+            "gender": "male"
+      },
+      "grandfather": {
+            "single_attr": "a grandfather",
+            "plural_attr": "grandfathers",
+            "gender": "male"
+      },
+      "grandmother": {
+            "single_attr": "a grandmother",
+            "plural_attr": "grandmothers",
+            "gender": "female"
+      },
+      "businesswoman": {
+            "single_attr": "a businesswoman",
+            "plural_attr": "businesswomen",
+            "gender": "female"
+      },
+      "businessman": {
+            "single_attr": "a businessman",
+            "plural_attr": "businessmen",
+            "gender": "male"
+      },
+      "queen": {
+            "single_attr": "a queen",
+            "plural_attr": "queens",
+            "gender": "female"
+      },
+      "gentleman": {
+            "single_attr": "a gentleman",
+            "plural_attr": "gentlemen",
+            "gender": "male"
+      },
+      "lady": {
+            "single_attr": "a lady",
+            "plural_attr": "ladies",
+            "gender": "female"
+      },
+      "boyfriend": {
+            "single_attr": "a boyfriend",
+            "plural_attr": "boyfriends",
+            "gender": "male"
+      },
+      "girlfriend": {
+            "single_attr": "a girlfriend",
+            "plural_attr": "girlfriends",
+            "gender": "female"
+      },
+      "actress": {
+            "single_attr": "an actress",
+            "plural_attr": "actresses",
+            "gender": "female"
+      },
+      "mom": {
+            "single_attr": "a mom",
+            "plural_attr": "moms",
+            "gender": "female"
+      },
+      "dad": {
+            "single_attr": "a dad",
+            "plural_attr": "dads",
+            "gender": "male"
+      },
+      "male": {
+            "adj_attr": "male",
+            "single_attr": "a male",
+            "plural_attr": "males",
+            "gender": "male"
+      },
+      "female": {
+            "adj_attr": "female",
+            "single_attr": "a female",
+            "plural_attr": "females",
+            "gender": "female"
+      },
+      "sister": {
+            "single_attr": "a sister",
+            "plural_attr": "sisters",
+            "gender": "female"
+      },
+      "brother": {
+            "single_attr": "a brother",
+            "plural_attr": "brothers",
+            "gender": "male"
+      },
+      "boy": {
+            "single_attr": "a boy",
+            "plural_attr": "boys",
+            "gender": "male"
+      },
+      "girl": {
+            "single_attr": "a girl",
+            "plural_attr": "girls",
+            "gender": "female"
+      },
+      "gal": {
+            "single_attr": "a gal",
+            "plural_attr": "gals",
+            "gender": "female"
+      },
+      "chairwoman": {
+            "single_attr": "a chairwoman",
+            "plural_attr": "chairwomen",
+            "gender": "female"
+      },
+      "father": {
+            "single_attr": "a father",
+            "plural_attr": "fathers",
+            "gender": "male"
+      },
+      "mother": {
+            "single_attr": "a mother",
+            "plural_attr": "mothers",
+            "gender": "female"
+      },
+      "daughter": {
+            "single_attr": "a daughter",
+            "plural_attr": "daughters",
+            "gender": "female"
+      },
+      "son": {
+            "single_attr": "a son",
+            "plural_attr": "sons",
+            "gender": "male"
+      },
+      "husband": {
+            "single_attr": "a husband",
+            "plural_attr": "husbands",
+            "gender": "male"
+      },
+      "wife": {
+            "single_attr": "a wife",
+            "plural_attr": "wives",
+            "gender": "female"
+      },
+      "spokeswoman": {
+            "single_attr": "a spokeswoman",
+            "plural_attr": "spokeswomen",
+            "gender": "female"
+      },
+      "woman": {
+            "single_attr": "a woman",
+            "plural_attr": "women",
+            "gender": "female"
+      },
+      "man": {
+            "single_attr": "a man",
+            "plural_attr": "men",
+            "gender": "male"
+      },
+      "her": {
+            "attr's": "her",
+            "gender": "female"
+      },
+      "his": {
+            "attr's": "his",
+            "gender": "male"
+      },
+      "pregnant": {
+            "adj_attr": "pregnant",
+            "gender": "female"
+      }
+}

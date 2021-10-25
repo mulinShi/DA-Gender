@@ -1,0 +1,20 @@
+{
+      "female": [
+            "registered nurse",
+            "health aide",
+            "receptionist",
+            "dental assistant"
+      ],
+      "male": [
+            "repairer",
+            "roofer",
+            "firefighter",
+            "electrical installer"
+      ],
+      "balanced": [
+            "lodging manager",
+            "medical scientist",
+            "dispatcher",
+            "salesperson"
+      ]
+}
