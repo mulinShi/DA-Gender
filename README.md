@@ -1,7 +1,7 @@
 # DA-Gender
 This is the Github repo for DA-Gender, a challenge dataset for measuring the extent of over-debiasing.
 # The Dataset
-introduce 
+DA-Gender measures the degree of genuine (or: desirable) associations that are present in PLMs. It consists of 2610 pairs of sentences, one encoding a factual/genuine association (She is pregnant), and the other a violation of the fact (He is pregnant).
 and domains
 # Set up
 Use Python 3 (we use Python 3.7) and install the required packages.
