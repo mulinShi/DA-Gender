@@ -49,8 +49,8 @@ python3 bert_sent_debias.py
 
 # Bias and Over-Debiasing Evaluation
 For each model, there is a notebook that shows the bias and over-debiasing evaluation results before and after debiased by SD.
-Or you can run evaluation by the .py file.
-Again, we took BERT as an example:
+Or you can run evaluation by the \*\_bias\_evaluation.py under each model.
+Again, we took BERT-base as an example:
 
 - Evaluate orginal models
 ```
