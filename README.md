@@ -17,7 +17,7 @@ Use Python 3 (we use Python 3.7) and install the required packages.
 ```
 pip install -r requirements.txt
 ```
-# bias mitigation
+# Bias Mitigation
 We took BERT-base as an examples:
 - Counterfactual Data Substitution (CDS)
 ```
@@ -47,7 +47,7 @@ python3 bert_sent_debias.py
           --eval_type [Which groups of data for bias evaluation (val/test/whole set)] 
 ```
 
-# bias and over-debiasing evaluation
+# Bias and Over-Debiasing Evaluation
 For each model, there is a notebook that shows the bias and over-debiasing evaluation results before and after debiased by SD.
 Or you can run evaluation by the .py file.
 Again, we took BERT as an example:
