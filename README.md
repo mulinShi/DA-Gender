@@ -58,9 +58,11 @@ python3 bert_bias_evaluation.py --model "bert-base-uncased"
 ```
 - Evaluate models that debiased by ER/CDS
 ```
-python3 bert_bias_evaluation.py --debiased_model_path "bert-base-uncased" 
+python3 bert_bias_evaluation.py --model [The path of models that debiased by CDS/ER]
 ```
 - Evaluate models that debiased by SD
 ```
-python3 bert_bias_evaluation.py --model "bert-base-uncased" --subspace_path
+python3 bert_bias_evaluation.py 
+          --model "bert-base-uncased" 
+          --subspace_path [The path of a computed gender direction for SD]
 ```
