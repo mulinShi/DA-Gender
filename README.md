@@ -18,7 +18,7 @@ Use Python 3 (we use Python 3.7) and install the required packages.
 pip install -r requirements.txt
 ```
 # Bias Mitigation
-We took BERT-base as an examples:
+Here, we took BERT-base as an examples:
 - Counterfactual Data Substitution (CDS)
 ```
 python3 bert_CDS.py 
