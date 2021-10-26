@@ -18,18 +18,33 @@ Use Python 3 (we use Python 3.7) and install the required packages.
 pip install -r requirements.txt
 ```
 # bias mitigation
-We took BERT as an examples:
+We took BERT-base as an examples:
 - Counterfactual Data Substitution (CDS)
 ```
-python3 bert_CDS.py --model 'bert-base-uncased' --CDS_ratio 1.0 --epochs 8 --lr 2e-5 --batch_size 8 --eval_type test
+python3 bert_CDS.py 
+          --model 'bert-base-uncased' 
+          --CDS_ratio [The hyperparameter for controlling the debiasing effects of CDS] 
+          --epochs [The number of fine-tuning epoch ]
+          --lr [The learning rate] 
+          --batch_size [The batch size]
+          --eval_type [Which groups of data for bias evaluation (val/test/whole set)]
 ```
 - Embedding Regularization (ER)
 ```
-python3 bert_ER.py --model 'bert-base-uncased' --lambda_for_ER 0.5 --epochs 8 --lr 2e-5 --batch_size 8 --eval_type test 
+python3 bert_ER.py 
+          --model 'bert-base-uncased' 
+          --lambda_for_ER [The hyperparameter for controlling the debiasing effects of ER] 
+          --epochs [The number of fine-tuning epoch ]
+          --lr [The learning rate] 
+          --batch_size [The batch size]
+          --eval_type [Which groups of data for bias evaluation (val/test/whole set)] 
 ```
 - Sentence Debias (SD)
 ```
-python3 bert_sent_debias.py --model 'bert-base-uncased' --target_pair_ratio 0.05 --eval_type test
+python3 bert_sent_debias.py 
+          --model 'bert-base-uncased' 
+          --target_pair_ratio [The hyperparameter for controlling the debiasing effects of SD] 
+          --eval_type [Which groups of data for bias evaluation (val/test/whole set)] 
 ```
 
 # bias and over-debiasing evaluation
