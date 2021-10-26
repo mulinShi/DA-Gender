@@ -1,7 +1,9 @@
 # DA-Gender
 This is the Github repo for DA-Gender, a challenge dataset for measuring the extent of over-debiasing.
 # The Dataset
-DA-Gender measures the degree of genuine (or: desirable) associations that are present in PLMs. It consists of 2610 pairs of sentences, one encoding a factual/genuine association (She is pregnant), and the other a violation of the fact (He is pregnant). Each example has the following information:
+DA-Gender measures the degree of genuine (or: desirable) associations that are present in PLMs. It consists of 2610 pairs of sentences, one encoding a factual/genuine association (She is pregnant), and the other a violation of the fact (He is pregnant). 
+
+Each example has the following information:
 - Sent_A: The sentence that contains desirable associations
 - Sent_B: The sentence that voilates desirable associations in Sent_A.
 - TM_sent: The sentence with the target word masked.
@@ -50,6 +52,7 @@ python3 bert_sent_debias.py
 # Bias and Over-Debiasing Evaluation
 For each model, there is a notebook that shows the bias and over-debiasing evaluation results before and after debiased by SD.
 Or you can run evaluation by the \*\_bias\_evaluation.py under each model. Then evaluation results will be saved in \*\_bias\_eval_res.json under each model file.
+
 Again, we took BERT-base as an example:
 
 - Evaluate orginal models
