@@ -174,6 +174,10 @@ if __name__ == '__main__':
     else:
         device = torch.device('cpu')
 
+    model_size = ''
+    if 'medium' in args.model:
+        model_size = 'medium'
+
     tokenizer = GPT2Tokenizer.from_pretrained(args.model)
     model = GPT2LMHeadModel.from_pretrained(args.model,
                                             output_attentions=False,

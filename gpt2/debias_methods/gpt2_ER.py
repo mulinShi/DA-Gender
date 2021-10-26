@@ -235,7 +235,7 @@ if __name__ == '__main__':
 
     model = fine_tune(model, dataloader, eval_type, tokenizer, lr, lambda_for_ER, device, ER_res, epochs = epochs)
 
-    save_model(tokenizer, model, 'saved_models/CDS/CDS_gpt2_{}_{}_{}_{}_{}_{}'.format(model_size, eval_type, epochs, batch_size, lr, lambda_for_ER))
+    save_model(tokenizer, model, 'saved_models/ER/ER_gpt2_{}_{}_{}_{}_{}_{}'.format(model_size, eval_type, epochs, batch_size, lr, lambda_for_ER))
 
     # with open('large_res_for_opt_paras/ER/ER_gpt2_trade_off_{}_{}_{}_{}_{}.json'.format(eval_type, epochs, batch_size, lr, lambda_for_ER), 'w') as f:
     #     json.dump(ER_res, f, indent = '\t')

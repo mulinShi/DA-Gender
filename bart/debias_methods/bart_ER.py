@@ -17,7 +17,7 @@ import spacy
 from CDA.substitutor import Substitutor, load_json_pairs
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-def save_model(tokenizer, model, save_directory, file_name):
+def save_model(tokenizer, model, file_name):
     tokenizer.save_pretrained(file_name)
     model.save_pretrained(file_name)
     print("saving model to {}".format(file_name))
