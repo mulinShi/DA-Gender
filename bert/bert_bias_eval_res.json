@@ -1,0 +1,25 @@
+{
+      "model": "bert-large-uncased",
+      "SEAT-v2": 1.4932444391633548,
+      "logprob": 1.9723877121303433,
+      "SEAT-v1": 0.3350514372963267,
+      "DA-score": 0.9862068965517241
+}{
+      "model": "bert-base-uncased",
+      "SEAT-v2": 1.9427828883830491,
+      "logprob": 1.966382127046125,
+      "SEAT-v1": 1.7004990198053145,
+      "DA-score": 0.9509578544061302
+}{
+      "model": "bert-base-uncased_SENT_DEBIAS",
+      "SEAT-v2": 1.3632698257145888,
+      "logprob": 1.0976487652451454,
+      "SEAT-v1": -0.09647898803104707,
+      "DA-score": 0.6773946360153257
+}{
+      "model": "bert-large-uncased_SENT_DEBIAS",
+      "SEAT-v2": 0.3249787582763519,
+      "logprob": 1.2563850790167035,
+      "SEAT-v1": 0.025817217813447542,
+      "DA-score": 0.746360153256705
+}

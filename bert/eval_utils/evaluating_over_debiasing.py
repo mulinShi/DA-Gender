@@ -262,7 +262,7 @@ def add_predicts(corpus, model_type = None, subspace_path = None, tokenizer = No
 
     corpus = corpus.assign(pref_to_male = pref2males)
     corpus = corpus.assign(pref_to_female = pref2females)
-    corpus.to_csv('sent_debias_large_bert_{}_{}_over_debiasing.tsv'.format(len(corpus), model_type), sep='\t')
+    # corpus.to_csv('sent_debias_large_bert_{}_{}_over_debiasing.tsv'.format(len(corpus), model_type), sep='\t')
     return corpus
 
 if __name__ == '__main__':

@@ -250,7 +250,7 @@ def add_predicts(corpus, model_type = None, device = None, tokenizer = None, sub
     corpus = corpus.assign(pref_to_male = pref2males)
     corpus = corpus.assign(pref_to_female = pref2females)
 
-    corpus.to_csv('sent_debias_{}_{}_over_debiasing.tsv'.format(len(corpus), model_type), sep='\t')
+    # corpus.to_csv('sent_debias_{}_{}_over_debiasing.tsv'.format(len(corpus), model_type), sep='\t')
 
     return corpus
 

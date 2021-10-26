@@ -1,0 +1,25 @@
+{
+      "model": "facebook/bart-large",
+      "SEAT-v2": 1.3774923766961604,
+      "logprob": 1.6907803901410634,
+      "SEAT-v1": 0.5047375119079267,
+      "DA-score": 0.7793103448275862
+}{
+      "model": "facebook/bart-base",
+      "SEAT-v2": 1.2391927407022152,
+      "logprob": 1.7074398534927382,
+      "SEAT-v1": 0.4276836186717399,
+      "DA-score": 0.8417624521072797
+}{
+      "model": "facebook/bart-base_SENT_DEBIAS",
+      "SEAT-v2": 0.5286840535474023,
+      "logprob": 1.4509901162375083,
+      "SEAT-v1": 0.17785143474816928,
+      "DA-score": 0.6574712643678161
+}{
+      "model": "facebook/bart-large_SENT_DEBIAS",
+      "SEAT-v2": 1.0492078844511483,
+      "logprob": 1.2070231944533238,
+      "SEAT-v1": 0.02694944375827735,
+      "DA-score": 0.6203065134099617
+}
