@@ -1,8 +1,17 @@
 # DA-Gender
 This is the Github repo for DA-Gender, a challenge dataset for measuring the extent of over-debiasing.
 # The Dataset
-DA-Gender measures the degree of genuine (or: desirable) associations that are present in PLMs. It consists of 2610 pairs of sentences, one encoding a factual/genuine association (She is pregnant), and the other a violation of the fact (He is pregnant).
-and domains
+DA-Gender measures the degree of genuine (or: desirable) associations that are present in PLMs. It consists of 2610 pairs of sentences, one encoding a factual/genuine association (She is pregnant), and the other a violation of the fact (He is pregnant). Each example has the following information:
+-Sent_A: The sentence that contains desirable associations
+-Sent_B: The sentence that voilates desirable associations in Sent_A.
+-TM_sent: The sentence with the target word masked.
+-TAM_sent: The sentence with the attribute word masked.
+-Used_tmp: The template for constructing the sentence pair.
+-Attr: The attribute word in the sentence pair.
+-Male_target: The male target word.
+-Female_target: The female target word.
+-ideal_pref: The label which specifies the gender of the attribute word.
+
 # Set up
 Use Python 3 (we use Python 3.7) and install the required packages.
 ```
